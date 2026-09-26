@@ -2,7 +2,7 @@
 /* 列表页：非遗项目 / 文化空间 / 诗文与文献三个板块。
    筛选、查找与分页都在已生成的页面上跑，靠 data-* 属性与 kit 的 client/filter.js，
    不生成第二份数据文件。非遗项目多出门类与级别两组筛选。 */
-import Base from '../layouts/Base.astro';
+import Base from 'lishui-kit/astro/layouts/Base.astro';
 import PageHead from 'lishui-kit/astro/PageHead.astro';
 import FilterForm from 'lishui-kit/astro/FilterForm.astro';
 import CardGrid from 'lishui-kit/astro/CardGrid.astro';
@@ -50,6 +50,7 @@ const path = sectionPath(section, lang);
 ---
 
 <Base
+  ctx={ctx}
   lang={lang}
   path={path}
   title={text.title}
