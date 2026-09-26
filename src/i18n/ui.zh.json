@@ -1,161 +1,51 @@
 {
-  "lang": "zh-Hans",
-  "langShort": "中",
-  "labelSep": "：",
-  "langLabel": "界面语言",
-  "skip": "跳到主要内容",
   "nav": {
-    "home": "首页",
     "items": "非遗项目",
     "places": "文化空间",
-    "articles": "诗文与文献",
-    "index": "索引",
-    "about": "关于"
+    "articles": "诗文与文献"
   },
-  "theme": {
-    "dark": "切换到深色模式",
-    "light": "切换到浅色模式"
-  },
-  "wordmark": { "sub": "溧水 · 南京" },
   "hero": {
     "eyebrow": "溧水文化 · 江苏南京溧水区",
     "title": "把溧水的手艺与风俗，一件一件记下来",
     "lede": "从骆山大龙到蒲塘桥庙会，从剪纸、铁画到旧志里的诗文。每条标明门类、级别与保护单位，来源逐条著录，中英双语。",
-    "searchPlaceholder": "查条目：骆山大龙、蒲塘桥庙会、剪纸…",
-    "searchButton": "查找",
-    "searchHint": "查找在索引页运行，范围是本站已发布的全部条目。"
+    "searchPlaceholder": "查条目：骆山大龙、蒲塘桥庙会、剪纸…"
   },
   "stats": {
-    "entries": "已发布条目",
-    "categories": "内容类别",
-    "itemTypes": "覆盖门类",
-    "sources": "来源记录"
+    "itemTypes": "覆盖门类"
   },
   "home": {
     "categoriesTitle": "七类内容",
     "categoriesNote": "非遗项目按门类归并，文化空间与诗文文献各成一类；分类只作导航与筛选维度，不改变条目的实体类型。",
     "sectionsTitle": "三个板块",
-    "sectionsNote": "非遗项目、文化空间、诗文与文献，各自成页。",
-    "latestTitle": "最新更新",
-    "latestNote": "按 updated 字段倒序，最多六条。",
-    "latestSeeAll": "查看全部条目",
-    "rulesTitle": "编纂凡例",
-    "rulesNote": "四条硬规则，由内容库的校验脚本在入库前把关。",
-    "browseAll": "查看全部"
+    "sectionsNote": "非遗项目、文化空间、诗文与文献，各自成页。"
   },
   "list": {
-    "countUnit": "条",
-    "filterCategory": "类别",
     "filterItemType": "门类",
     "filterLevel": "级别",
     "filterTown": "街镇",
-    "filterTag": "标签",
-    "filterAll": "全部",
-    "clear": "清除筛选",
-    "pager": "分页",
-    "pagerInfo": "第 {from}–{to} 条 · 共 {total} 条",
-    "pagerPrev": "上一页",
-    "pagerNext": "下一页",
-    "pagerPage": "第 {n} 页",
-    "search": "在全部条目中查找",
-    "noresult": "没有符合条件的条目。",
-    "townNote": "街镇取自条目地址字段，未填地址的条目不参与此项筛选。",
-    "empty": "这一类还没有已发布的条目。"
+    "townNote": "街镇取自条目地址字段，未填地址的条目不参与此项筛选。"
   },
   "detail": {
-    "toc": "本页目录",
-    "info": "信息卡",
-    "type": "类型",
-    "category": "类别",
     "itemType": "门类",
     "level": "级别",
     "batch": "公布批次",
     "guardian": "保护单位",
-    "time": "时间",
-    "dynasty": "朝代",
-    "era": "纪年",
-    "precision": "精度",
-    "approx": "约",
-    "depth": "深度",
-    "confidence": "可靠性",
-    "updated": "更新",
-    "protection": "文保级别",
-    "protectionBatch": "公布批次",
-    "address": "位置",
-    "placeType": "空间类型",
-    "genre": "体裁",
-    "outcome": "结果与影响",
-    "related": "关联条目",
-    "places": "相关地点",
-    "sources": "来源",
-    "sourceLocator": "位置",
-    "sourceAccessed": "访问",
-    "sourceRights": "授权",
-    "backToList": "返回列表",
-    "license": "本条目文字采用 CC BY 4.0 授权，转载请注明来源。",
-    "unverified": "本条目尚未经第二人核对来源。"
+    "placeType": "空间类型"
   },
   "indexPage": {
-    "title": "索引",
     "lede": "按类别分组总览全部条目，供「有没有写」的快速核对。",
-    "colYear": "年份",
-    "colEntry": "条目",
-    "colType": "类型",
-    "colCategory": "类别",
     "colItemType": "门类",
-    "colLevel": "级别",
-    "colDepth": "深度",
-    "noTime": "无年份"
+    "colLevel": "级别"
   },
   "about": {
-    "title": "关于本分站",
     "lede": "溧水文化是溧水一方的分站之一，收录溧水区的非物质文化遗产代表性项目、非遗所依附的文化空间，以及方言、诗文与旧志的整理。",
-    "scopeTitle": "内容范围",
     "scopeBody": "三类实体：非遗项目、文化空间、文章。非遗项目按门类归入七个类别，每条标明门类、级别、公布批次与保护单位；文化空间只收与非遗相关的村落、山体、水系，以及旧时的书院与学宫；文章为自行撰写的整理与考据。只收已发布的条目，未取得可靠来源的内容不进本页。",
-    "sourceTitle": "来源策略",
     "sourceBody": "来源分四级：旧志与碑刻等文献、区政府与非遗名录等一级来源、考古报告与学术论文等二级来源、媒体报道与实地走访。名录口径一律以官方文件为准：区级第四批为 2024 年 1 月公示稿，条目写明「据公示稿」，不径称已公布。来源互相矛盾时并列呈现、各自标注，不做单方面取舍；传说与史实分段呈现，传说保留「相传」字样。来源记录按原文献语言著录：出版者另给英文写法，授权说明与引文位置保留原文，便于读者回到原书查证。",
-    "licenseTitle": "许可",
-    "licenseBody": "本分站的条目文字采用 CC BY 4.0 授权，署名即可商用与改编。来源层各条资料的授权状态见每条来源的 rights 字段，不随本分站授权一并转移。",
-    "bilingualTitle": "双语与主题",
-    "bilingualBody": "中文在根路径，英文在 /en/ 下，两种语言的页面路径一一对应，切换语言时停在当前页面。主题默认跟随系统，也可手动切换，选择记在浏览器本地，刷新不闪烁。",
-    "fixTitle": "纠错",
-    "fixBody": "发现事实错误、来源失效或专名译法不一致，请在站群仓库提交 issue，注明条目 ID 与依据。核对后更新条目并把 updated 字段改到当天。",
-    "gateTitle": "校验门禁",
     "gateBody": "每条条目在入库前要通过内容库的校验脚本：必填字段、取值表、来源可解析、关联可解析、双语配对、专名一致。非遗项目必须有门类、级别、批次与保护单位，填了级别就必须填批次；文化空间填了文保级别就必须带公布批次；文章引用旧志原文时，引文只能取自公有领域的来源。",
-    "techTitle": "技术说明",
-    "techBody": "本站是静态站点，由内容库的 Markdown 在构建时生成，不依赖数据库与客户端框架。筛选、查找与列表分页都在已生成的页面上运行，不需要额外的接口。",
-    "statsTitle": "当前规模",
-    "statsNote": "数字由构建时统计，随内容库更新而变，不手工维护。",
-    "sectionsTitle": "分板块条目数",
-    "sectionsHead": "板块",
-    "catStatsTitle": "分内容类别条目数",
-    "categoriesHead": "类别",
-    "rightsTitle": "来源层授权状态",
-    "rightsHead": "授权状态",
-    "archiveTitle": "来源层归档方式",
-    "archiveHead": "归档方式"
+    "techBody": "本站是静态站点，由内容库的 Markdown 在构建时生成，不依赖数据库与客户端框架。筛选、查找与列表分页都在已生成的页面上运行，不需要额外的接口。"
   },
   "footer": {
-    "about": "溧水文化是溧水一方的分站之一，条目文字采用 CC BY 4.0 授权，来源逐条著录。",
-    "portal": "回到溧水一方",
-    "rights": "成果层文字：CC BY 4.0",
-    "updated": "内容更新至"
+    "about": "溧水文化是溧水一方的分站之一，条目文字采用 CC BY 4.0 授权，来源逐条著录。"
   },
-  "type": { "item": "非遗项目", "place": "文化空间", "article": "文章" },
-  "depth": { "stub": "骨架条目", "standard": "常规条目", "full": "长条目" },
-  "confidence": { "high": "可靠", "medium": "存疑", "low": "待核" },
-  "precision": { "year": "年", "decade": "十年", "century": "世纪", "unknown": "不详" },
-  "rights": {
-    "public-domain": "公有领域",
-    "gov-open": "政府公开信息",
-    "excerpt-only": "摘录（受版权保护）",
-    "link-only": "仅登记链接",
-    "permission-required": "授权未定",
-    "unknown": "授权状态未知"
-  },
-  "notFound": {
-    "title": "没有这个页面",
-    "lede": "地址可能写错了，或者这条内容还没上线。",
-    "back": "回到首页"
-  }
+  "type": { "item": "非遗项目", "place": "文化空间" }
 }
